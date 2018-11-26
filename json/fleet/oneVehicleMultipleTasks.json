@@ -1,0 +1,61 @@
+{
+    "vehicles": {
+        "car0-soma": {
+            "position": {
+                "latitude": 37.785042,
+                "longitude": -122.400304
+            },
+            "resource_capacity": 4
+        }
+    },
+    "tasks": {
+        "embarcadero->alamo_square": {
+            "resources_required": 1,
+            "pickup_step": {
+                "position": {
+                    "latitude": 37.795231,
+                    "longitude": -122.393707
+                }
+            },
+            "dropoff_step": {
+                "position": {
+                    "latitude": 37.776138,
+                    "longitude": -122.432897
+                },
+                "expected_duration": "15s"
+            }
+        },
+        "aquarium->lafayette_park": {
+            "resources_required": 1,
+            "pickup_step": {
+                "position": {
+                    "latitude": 37.808233,
+                    "longitude": -122.409935
+                }
+            },
+            "dropoff_step": {
+                "position": {
+                    "latitude": 37.790850,
+                    "longitude": -122.426732
+                },
+                "expected_duration": "15s"
+            }
+        },
+        "japan_town->haight": {
+            "resources_required": 2,
+            "pickup_step": {
+                "position": {
+                    "latitude": 37.785544,
+                    "longitude": -122.429962
+                }
+            },
+            "dropoff_step": {
+                "position": {
+                    "latitude": 37.770039,
+                    "longitude": -122.446951
+                },
+                "expected_duration": "15s"
+            }
+        }
+    }
+}
